@@ -14,7 +14,6 @@ body.hidden-scrolling{
 	margin:0;
 	box-sizing: border-box;
 }
-
 ul{
 	list-style: none;
 	margin:0;
@@ -478,6 +477,9 @@ footer {
 	margin: 50px auto;
 	padding: 20px;
 }
+.about hr{
+	border: 1px solid goldenrod;
+}
 .about .title{
 	text-align: center;
 	font-size: 45px;
@@ -494,7 +496,6 @@ footer {
 	margin-right: 20px;
 	overflow: hidden;
 	border-radius: 10px;
-
 }
 .imagee img {
 	width: 100%;
@@ -502,7 +503,9 @@ footer {
 .content{
 	flex: 1;
 	margin-left: 20px;
+	margin: 40px 0;
 }
+
 .contact p{
 	font-size: 17px ;
 	line-height: 1.6;
@@ -511,15 +514,69 @@ footer {
 	.about-content{
 		flex-direction: column;
 	}
-	.image, .content{
-		margin: 0;
-		margin-bottom: 20px;
-	}
-	.about .title{
-		font-size: 38px;
-		margin-bottom: 50px;
-	}
-	.contact p {
+	.content {
 		text-align: center;
 	}
+
 }
+.seal{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.seal .seal-imge{
+	position: relative;
+	width: 260px;
+	height: 300px;
+}
+.opp {
+	padding: 15 0;
+	text-align: center;
+	position: relative;
+  }
+  .opp .container-stats {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+  }
+  .opp .container-stats .box {
+	color: rgb(0, 0, 0);
+	padding: 50px;
+  }
+  @media (max-width: 767px) {
+	.opp .container-stats .box {
+	  flex-basis: 100%;
+	}
+  }
+  @media (min-width: 768px) {
+	.opp .container-stats .box {
+	  flex-basis: 50%;
+	}
+  }
+  @media (min-width: 992px) {
+	.opp .container-stats .box {
+	  flex-basis: 25%;
+	}
+  }
+  .opp .container-stats .box i {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	font-size: 40px;
+	color: goldenrod;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin: 0 auto 30px;
+  }
+  .opp .container-stats .box .number {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0 0 20px;
+	color: #3665f4;
+  }
+  .opp .container-stats .box p {
+	font-size: 16px;
+	color: black;
+  }

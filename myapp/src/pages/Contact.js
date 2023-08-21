@@ -21,7 +21,7 @@ const Contact = () => {
            "service_e9topdn", 
            "template_l8o050g",
             form.current,
-            "XIUS4UzufwEcPBIUT"
+           "XIUS4UzufwEcPBIUT"
         )
         .then(
           (result) => {
