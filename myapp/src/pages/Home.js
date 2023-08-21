@@ -2,14 +2,14 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../commp/Header";
 import Footer from "../commp/Footer";
 import img from "../images/img/landing.jpg";
-import a1 from "../images/des1/106.png"
-import a2 from "../images/des1/134.png"
-import a3 from "../images/des1/152.png"
-import a4 from "../images/des2/152.png"
-import a5 from "../images/des2/213.png"
-import a6 from "../images/des2/321.png"
-import a7 from "../images/des1/876.png"
-import a8 from "../images/des1/973.png"
+import a1 from "../images/front/23/23.png"
+import a2 from "../images/front/106/106.png"
+import a3 from "../images/front/134/134.png"
+import a4 from "../images/front/532/532.png"
+import a5 from "../images/front/540/540.png"
+import a6 from "../images/front/378/378.png"
+import a7 from "../images/front/543/543.png"
+import a8 from "../images/front/214/214  1.png"
 
 import { Link } from "react-router-dom";
 
@@ -61,17 +61,12 @@ const Home = () => {
           </div>
           <div className="box">
             <div className="image">
-              <img decoding="async" src={a2} alt="" />
-            </div>
-          </div>
-          <div className="box">
-            <div className="image">
               <img decoding="async" src={a3} alt="" />
             </div>
           </div>
           <div className="box">
             <div className="image">
-              <img decoding="async" src={a5} alt="" />
+              <img decoding="async" src={a2} alt="" />
             </div>
           </div>
           <div className="box">
@@ -82,6 +77,11 @@ const Home = () => {
           <div className="box">
             <div className="image">
               <img decoding="async" src={a4} alt="" />
+            </div>
+          </div>
+          <div className="box">
+            <div className="image">
+              <img decoding="async" src={a5} alt="" />
             </div>
           </div>
         </div>
@@ -128,7 +128,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
       <Footer />
     </>
   );

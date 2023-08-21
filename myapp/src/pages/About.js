@@ -37,7 +37,7 @@ const About = () => {
         </div>
         <div className="box">
         <i className="fa-solid fa-gift"></i>
-          <p>Fast shipping over 200$</p>
+          <p>Free shipping over 200$</p>
         </div>
         <div className="box">
           <i className="fas fa-trophy"></i>

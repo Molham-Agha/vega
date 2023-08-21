@@ -396,6 +396,9 @@ footer {
     padding-top: 100px ;
     padding-bottom: 15px ;
   }
+  .contact hr{
+	border: 1px solid goldenrod;
+  }
   .contact .container {
     display: flex;
 	
@@ -479,12 +482,6 @@ footer {
 }
 .about hr{
 	border: 1px solid goldenrod;
-}
-.about .title{
-	text-align: center;
-	font-size: 45px;
-	font-weight: bold;
-	margin-bottom: 70px;
 }
 .about-content{
 	display: flex;
