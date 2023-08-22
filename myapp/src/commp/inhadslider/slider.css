@@ -5,9 +5,7 @@
   margin: auto;
   overflow: hidden;
 }
-.active {
-  display: inline-block;
-}
+
 .inactive {
   display: none;
 }

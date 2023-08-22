@@ -1,6 +1,7 @@
 import First from "../assets/First.jpg";
 import Second from "../assets/Second.jpg";
 import Third from "../assets/Third.jpg";
+import fore from "../assets/3.jpg"
 
 export default[
   {
@@ -17,6 +18,11 @@ export default[
     title: "Third Slide",
     description: "This is the Third slider Image of our carousel",
     urls: Third,
+  },
+  {
+    title: "fore",
+    description: "This is the Third slider Image of our carousel",
+    urls: fore,
   },
 ];
 
