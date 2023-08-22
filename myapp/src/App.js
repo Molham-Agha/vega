@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Forman from "./pages/Forman";
 import Forwoman from "./pages/Forwoman";
+import Slider from './commp/inhadslider/Slider';
 
 const router = createBrowserRouter([
   {
@@ -34,7 +35,7 @@ function App() {
   return (
     <div className="App">
        <RouterProvider router={router} >
-        
+          
           <Home />
         
        </RouterProvider>

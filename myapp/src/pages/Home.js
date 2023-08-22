@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import Header from "../commp/Header";
 import Footer from "../commp/Footer";
+
 import img from "../images/img/landing.jpg";
 import a1 from "../images/front/23/23.png"
 import a2 from "../images/front/106/106.png"
@@ -12,6 +13,7 @@ import a7 from "../images/front/543/543.png"
 import a8 from "../images/front/214/214  1.png"
 
 import { Link } from "react-router-dom";
+import Slider from '../commp/inhadslider/Slider';
 
 
 const Home = () => {
@@ -19,8 +21,9 @@ const Home = () => {
     <>
       <Helmet>
         <title>Home Page</title>
-      </Helmet>
+      </Helmet>      
       <Header />
+      <Slider />
       <div className="landing">
         <div className="container">
           <div className="landing-content">
