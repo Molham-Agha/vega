@@ -2,22 +2,24 @@
 	
 } */
 .header{
+	padding: 10px 45px;
 	background-color: goldenrod;
 	/* position: absolute; */
 	width: 100%;
 	left:0;
 	top:0;
 	z-index: 99;
-	-webkit-box-shadow: 0 0 10px #ffffff;
-    -moz-box-shadow: 0 0 10px #f7de00;
-    box-shadow: 0 0 10px #000000;
 }
 .header-main{
+	padding: 0 20px;
 	background-color: #ffffff;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	border-radius: 4px;
+	-webkit-box-shadow: 0 0 10px #ffffff;
+    -moz-box-shadow: 0 0 10px #f7de00;
+    box-shadow: 0 0 10px #efe473;
 }
 .header .logo{
      position: relative;
@@ -31,7 +33,6 @@
 .header .nav-menu{
 	padding-left: 15px ;
 	padding-right: 15px ;
-	
 }
 .header .menu  .menu-item{
 	display: inline-block;

@@ -1,7 +1,7 @@
 import WomanData from "./WomanData";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import "../products.css"
+import "../products.css";
 
 const Woman = () => {
   const products = WomanData.map((product) => {
@@ -18,7 +18,7 @@ const Woman = () => {
   return (
     <>
       <Helmet>
-        <title>Man Page</title>
+        <title>Woman Page</title>
       </Helmet>
       <div className="product">{products}</div>
     </>

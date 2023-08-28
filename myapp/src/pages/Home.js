@@ -7,9 +7,8 @@ import a3 from "../images/front/134/134.png";
 import a4 from "../images/front/532/532.png";
 import a5 from "../images/front/540/540.png";
 import a6 from "../images/front/378/378.png";
-import a7 from "../images/front/543/543.png";
-import a8 from "../images/front/214/214  1.png";
-
+import W1 from "../images/photos haraka2/pebblely (8).jpg"
+import W2 from "../images/photos haraka2/pebblely (37).jpg"
 import { Link } from "react-router-dom";
 import Slider from "../commp/inhadslider/Slider";
 
@@ -28,19 +27,13 @@ const Home = () => {
             </div>
             <div className="text">
               <p>
-                {" "}
-                Lorem ipsum ldolor sit amet consectetur adipisicing elit. Nihil
-                nemo neque voluptate tempora velit cum non, fuga vitae
-                architecto delectus sed maxime rerum impedit aliquam obcaecati,
-                aut excepturi iusto laudantium!{" "}
+                
+                Our passionate journey into the magical world of travel, which is one of the ways we express our star in our daily lives and even reflect our personality through our choices, continuing since 1999
               </p>
               <hr />
               <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-                sapiente. Velit iure exercitationem dolores nesciunt dolore. Eum
-                officiis dolorum hic voluptate quaerat minima, similique
-                inventore esse, alias, sed quo officia?{" "}
+                
+                Our company is a pioneer in the field of manufacturing homogeneous perfumes taken from the magic of nature, which makes it distinctive, innovative scent, smooth and beautiful texture.<span>Perfume is the signature of the body</span>
               </p>
             </div>
           </div>
@@ -86,25 +79,23 @@ const Home = () => {
         <div className="container">
           <div className="box quality">
             <div className="img-holder">
-              <img decoding="async" src={a7} alt="" />
+              <img decoding="async" src={W2} alt="" />
             </div>
             <h2>For Man</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-              harum hic veniam eligendi minima
+              Enjoy the strength and the amazing and attractive scent for the whole day
             </p>
-            <Link to="/man">Show more</Link>
+            <Link to="/man">View products</Link>
           </div>
           <div className="box time">
             <div className="img-holder">
-              <img decoding="async" src={a8} alt="" />
+              <img decoding="async" src={W1} alt="" />
             </div>
             <h2>For Woman</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-              harum hic veniam eligendi minima
+              Soft and warm on the body. Feel the beauty of nature. It lasts all day
             </p>
-            <Link to="/woman">Show more</Link>
+            <Link to="/woman">View products</Link>
           </div>
         </div>
       </div>
@@ -112,7 +103,7 @@ const Home = () => {
         <div className="container-stats">
           <div className="box">
             <i className="fa-solid fa-truck"></i>
-            <p> shipping term 7 days</p>
+            <p> shipping term one day</p>
           </div>
           <div className="box">
             <i className="fa-solid fa-route"></i>
@@ -128,7 +119,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

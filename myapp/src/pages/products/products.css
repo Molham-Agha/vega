@@ -111,6 +111,11 @@
 .user .rate{
     color: gold;
 }
+@media  (max-width:350px) {
+    .user-image img{
+        flex-direction: column;
+    }
+}
 @media  (max-width:650px) {
     .user-image img{
         display: flex;

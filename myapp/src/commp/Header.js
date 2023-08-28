@@ -37,10 +37,10 @@ function Header() {
                   </a>
                   <ul className="sub-menu">
                     <li className="menu-item">
-                      <NavLink onClick={handleClick} to="/man">for man</NavLink>
+                      <NavLink onClick={handleClick} to="/man">Man</NavLink>
                     </li>
                     <li className="menu-item">
-                      <NavLink onClick={handleClick} to="/woman">for woman</NavLink>
+                      <NavLink onClick={handleClick} to="/woman">Woman</NavLink>
                     </li>
                   </ul>
                 </li>
@@ -50,7 +50,7 @@ function Header() {
                 <li className="menu-item">
                   <NavLink onClick={handleClick} to="/Contact">Contact</NavLink>
                 </li>
-                <li className="menu-item menu-item-has-children" id="lan">
+                {/* <li className="menu-item menu-item-has-children" id="lan">
                   <Link href="#i" data-toggle="sub-menu">
                     Languages <i className="plus" />
                   </Link>
@@ -65,7 +65,7 @@ function Header() {
                       <Link href="#i">English</Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>

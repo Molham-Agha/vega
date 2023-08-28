@@ -34,7 +34,7 @@ const Footer = () => {
             </li>
         </ul>
         <p className="copyright">
-            footer react.js /
+          <Link  to="https://my-web-react-48daf.web.app/">Code by Molham  2023 ©</Link>
         </p>
       </footer>
      
