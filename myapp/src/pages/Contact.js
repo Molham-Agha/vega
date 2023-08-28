@@ -1,8 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import Header from "../commp/Header";
-import Footer from "../commp/Footer";
+
 
 
 const Contact = () => {
@@ -43,7 +42,7 @@ const Contact = () => {
       <Helmet>
         <title>Contact Page</title>
       </Helmet>
-      <Header />
+     
       <div className="contact">
         <div className="container">
           <div className="location">
@@ -53,7 +52,7 @@ const Contact = () => {
             </div>
             <div className="contact-info">
               <h3>Location</h3>
-              <span>Bursa-Turkiye</span>
+              <span>Turkiye</span>
             </div>
           </div>
           <hr/>
@@ -68,7 +67,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <Footer />
+
     </>
   );
 };

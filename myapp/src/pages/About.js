@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import Header from "../commp/Header";
-import Footer from "../commp/Footer";
+
 import pm1 from "../images/img/pm1.jpeg";
 import turky from "../images/img/turky.jpeg";
 
@@ -10,7 +9,7 @@ const About = () => {
       <Helmet>
         <title>About Page</title>
       </Helmet>
-      <Header />
+
       <div className="about">
         <div className="about-content">
           <div className="imagee">
@@ -107,7 +106,6 @@ const About = () => {
           defective product or refund will be given within 14 working days.
         </p>
       </div>
-      <Footer />
     </>
   );
 };

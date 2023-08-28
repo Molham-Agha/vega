@@ -1,28 +1,16 @@
-import First from "../assets/First.jpg";
-import Second from "../assets/Second.jpg";
-import Third from "../assets/Third.jpg";
-import fore from "../assets/3.jpg"
+import cc1 from "../../images/assets/Untitled-1 (1).png"
+import cc2 from "../../images/assets/Untitled-2.png"
+import cc3 from "../../images/assets/Untitled-12.png"
 
-export default[
+const slider =[
   {
-    title: "First Slide",
-    description: "This is the first slider Image of our carousel",
-    urls: First,
+    urls: cc1,
   },
   {
-    title: "Second Slide",
-    description: "This is the second slider Image of our carousel",
-    urls: Second,
+    urls: cc2,
   },
   {
-    title: "Third Slide",
-    description: "This is the Third slider Image of our carousel",
-    urls: Third,
-  },
-  {
-    title: "fore",
-    description: "This is the Third slider Image of our carousel",
-    urls: fore,
+    urls: cc3,
   },
 ];
-
+export default slider;

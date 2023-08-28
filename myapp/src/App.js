@@ -1,35 +1,28 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider , createRoutesFromElements , Route} from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Forman from "./pages/Forman";
-import Forwoman from "./pages/Forwoman";
-import Slider from './commp/inhadslider/Slider';
+import Layout from "./commp/Layout"
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    errorElement: <h1>ERROR</h1>,
-  },
-  {
-    path: "/About",
-    element: <About />,
-  },
-  {
-    path: "/Contact",
-    element: <Contact />,
-  },
-  {
-    path: "/Forman",
-    element: <Forman />,
-  },
-  {
-    path: "/Forwoman",
-    element: <Forwoman />,
-  },
-]);
+
+import Man from "./pages/products/man/Man";
+import ManDetail from './pages/products/man/ManDetail';
+import Woman from "./pages/products/woman/Woman";
+import WomanDetail from './pages/products/woman/WomanDetail';
+
+
+const router = createBrowserRouter(createRoutesFromElements(
+  <Route element={<Layout/>}>
+    <Route path='/' element= {<Home />}/>
+    <Route path='about' element= {<About />}/>
+    <Route path='/contact' element= {<Contact />}/>
+    <Route path='/man' element= {<Man />}/>
+    <Route path='/man/:id' element= {<ManDetail />}/>
+    <Route path='/woman' element= {<Woman />}/>
+    <Route path='/woman/:id' element= {<WomanDetail />}/>
+  </Route>
+))
 
 function App() {
   return (
@@ -39,6 +32,7 @@ function App() {
           <Home />
         
        </RouterProvider>
+       
     </div>
   );
 }

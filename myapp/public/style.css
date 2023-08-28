@@ -293,7 +293,7 @@ a{
   }
   /* sta===================== */
   .stats {
-	padding-top:100px;
+	padding-top:70px;
 	padding-bottom:100px;
 	position: relative;
 	background-color: #ebeced;
@@ -463,7 +463,7 @@ footer {
       padding-bottom: 100px;
     }
 	.contact_input{
-		min-width: 100%;
+		min-width: 140%;
 	}
     .form .button{
       position: absolute;
@@ -490,7 +490,6 @@ footer {
 }
 .imagee{
 	flex: 1;
-	margin-right: 20px;
 	overflow: hidden;
 	border-radius: 10px;
 }

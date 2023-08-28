@@ -5,26 +5,26 @@ import logo2 from "../images/img/logo.jpg"
 
 function Header() {
   const [click, setClick] = useState(false);
+  // const [navmenu, setNavmenu] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  const handleClick = () => setClick(false);
 
 
   return (
     <>
       <header className="header">
-        <div className="container">
           <div className="header-main">
             <div className="logo">
               <img  decoding="async"
                 src= {logo2}
                 alt="" ></img>
             </div>
-            <div className="open-nav-menu">
+            <div className="open-nav-menu"  onClick={() => setClick(true)}>
               <span />
             </div>
-            <div className="menu-overlay" />
-            <nav className="nav-menu">
-              <div className="close-nav-menu">
+            <div className="menu-overlay" style={{visibility:click ? "visible" : "hidden"  }}/>
+            <nav className="nav-menu" style={{right:click ? 0  : "-100%" } }>
+              <div className="close-nav-menu" onClick={handleClick}>
                <i class="fa-solid fa-xmark"></i>
               </div>
               <ul className="menu">
@@ -32,15 +32,15 @@ function Header() {
                   <NavLink onClick={handleClick} to="/">Home</NavLink>
                 </li>
                 <li className="menu-item menu-item-has-children">
-                  <Link href="#i" data-toggle="sub-menu">
+                  <a href="#i">
                     Products <i className="plus" />
-                  </Link>
+                  </a>
                   <ul className="sub-menu">
                     <li className="menu-item">
-                      <NavLink onClick={handleClick} to="/Forman">for man</NavLink>
+                      <NavLink onClick={handleClick} to="/man">for man</NavLink>
                     </li>
                     <li className="menu-item">
-                      <NavLink onClick={handleClick} to="/Forwoman">for woman</NavLink>
+                      <NavLink onClick={handleClick} to="/woman">for woman</NavLink>
                     </li>
                   </ul>
                 </li>
@@ -69,7 +69,6 @@ function Header() {
               </ul>
             </nav>
           </div>
-        </div>
       </header>
     </>
   );

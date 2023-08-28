@@ -1,6 +1,4 @@
 import { Helmet } from "react-helmet-async";
-import Header from "../commp/Header";
-import Footer from "../commp/Footer";
 
 import img from "../images/img/landing.jpg";
 import a1 from "../images/front/23/23.png";
@@ -21,7 +19,6 @@ const Home = () => {
       <Helmet>
         <title>Home Page</title>
       </Helmet>
-      <Header />
       <Slider />
       <div className="landing">
         <div className="container">
@@ -96,7 +93,7 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
               harum hic veniam eligendi minima
             </p>
-            <Link to="/Forman">Viue More</Link>
+            <Link to="/man">Show more</Link>
           </div>
           <div className="box time">
             <div className="img-holder">
@@ -107,7 +104,7 @@ const Home = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
               harum hic veniam eligendi minima
             </p>
-            <Link to="/Forwoman">Viue More</Link>
+            <Link to="/woman">Show more</Link>
           </div>
         </div>
       </div>
@@ -126,13 +123,12 @@ const Home = () => {
             <p>Free shipping over 200$</p>
           </div>
           <div className="box">
-            <i className="fas fa-trophy"></i>
-            <p>Turkish perfume brand</p>
+            <i className="fa-brands fa-cc-visa"></i>
+            <p>Safe shopping</p>
           </div>
         </div>
       </div>
 
-      <Footer />
     </>
   );
 };
