@@ -2,13 +2,11 @@ body{
 	line-height: 1.5;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
+	margin-top:  125px;;
 	
 }
 :root{
 	--main-color: #e91e63
-}
-body.hidden-scrolling{
-	overflow-y: hidden;
 }
 *{
 	margin:0;
@@ -104,6 +102,7 @@ a{
 .landing .landing-content .text p:first-of-type {
 	font-weight: bold;
 	line-height: 2;
+	padding: 0 5px 
 }
 .landing .landing-content .text hr {
 	width: 70%;
@@ -112,7 +111,9 @@ a{
 	border-color: goldenrod;
 }
 .landing .landing-content .text p:last-of-type {
+	font-weight: bold;
 	line-height: 2;
+	padding: 0 5px
 }
 .landing .landing-content .text p span{
 	color: goldenrod;
@@ -124,8 +125,6 @@ a{
 	padding: 10px 20px;
 	font-size: 30px;
 	width: fit-content;
-	position: relative;
-	z-index: 1;
   }
 /* phtos */
 .gallery {
@@ -134,7 +133,6 @@ a{
 	margin-right: auto;
 	background-color: #ebeced;
 	padding: 100px 0;
-	
  }
   .gallery .container {
 	padding-left: 50px;
@@ -190,7 +188,7 @@ a{
 	position: relative;
   }
   .features .container {
-	padding: 0 50px;
+	/* padding: 0 50px; */
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 	gap: 80px;
@@ -452,6 +450,7 @@ a{
 .contact p{
 	font-size: 17px ;
 	line-height: 1.6;
+	padding: 0 4px;
 }
 @media screen and (max-width: 768px) {
 	.about-content{
@@ -460,7 +459,6 @@ a{
 	.content {
 		text-align: center;
 	}
-
 }
 .stats {
 	padding-top:70px;
@@ -557,5 +555,6 @@ a{
   }
   .tyt p {
 	text-align: center;
+	padding: 5px 4px;
   }
  

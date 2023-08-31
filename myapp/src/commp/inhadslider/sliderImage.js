@@ -1,16 +1,14 @@
-import cc1 from "../../images/assets/Untitled-1 (1).png"
-import cc2 from "../../images/assets/Untitled-2.png"
-import cc3 from "../../images/assets/Untitled-12.png"
+
 
 const slider =[
   {
-    urls: cc1,
+    urls: "https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359394/trndeol%20tsarem/Untitled-12_vsdzgs.png"
   },
   {
-    urls: cc2,
+    urls: "https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359393/trndeol%20tsarem/Untitled-2_cenbdf.png"
   },
   {
-    urls: cc3,
+    urls: "https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359393/trndeol%20tsarem/Untitled-1_1_nad7vf.png"
   },
 ];
 export default slider;

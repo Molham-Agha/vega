@@ -1,14 +1,4 @@
 import { Helmet } from "react-helmet-async";
-
-import img from "../images/img/landing.jpg";
-import a1 from "../images/front/23/23.png";
-import a2 from "../images/front/106/106.png";
-import a3 from "../images/front/134/134.png";
-import a4 from "../images/front/532/532.png";
-import a5 from "../images/front/540/540.png";
-import a6 from "../images/front/378/378.png";
-import W1 from "../images/photos haraka2/pebblely (8).jpg"
-import W2 from "../images/photos haraka2/pebblely (37).jpg"
 import { Link } from "react-router-dom";
 import Slider from "../commp/inhadslider/Slider";
 
@@ -23,7 +13,7 @@ const Home = () => {
         <div className="container">
           <div className="landing-content">
             <div className="image">
-              <img decoding="async" src={img} alt="" />
+              <img decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359342/img/landing_c641af.jpg" alt="" />
             </div>
             <div className="text">
               <p>
@@ -44,32 +34,32 @@ const Home = () => {
         <div className="container">
           <div className="box">
             <div className="image">
-              <img decoding="async" src={a1} alt="" />
+              <img decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359030/photo2/973/973_1_m0bdzi.png" alt="" />
             </div>
           </div>
           <div className="box">
             <div className="image">
-              <img decoding="async" src={a3} alt="" />
+              <img decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359030/photo2/978/978_ry1nvi.png" alt="" />
             </div>
           </div>
           <div className="box">
             <div className="image">
-              <img decoding="async" src={a2} alt="" />
+              <img decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359043/photo2/623/623_1_oiplm7.png" alt="" />
             </div>
           </div>
           <div className="box">
             <div className="image">
-              <img decoding="async" src={a6} alt="" />
+              <img decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359307/phots%20abo%20maher/214/214_1_vcdofd.png" alt="" />
             </div>
           </div>
           <div className="box">
             <div className="image">
-              <img decoding="async" src={a4} alt="" />
+              <img decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359303/phots%20abo%20maher/255/255_yfvmu1.png" alt="" />
             </div>
           </div>
           <div className="box">
             <div className="image">
-              <img decoding="async" src={a5} alt="" />
+              <img decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359294/phots%20abo%20maher/489/489_1_jd93lb.png" alt="" />
             </div>
           </div>
         </div>
@@ -79,7 +69,7 @@ const Home = () => {
         <div className="container">
           <div className="box quality">
             <div className="img-holder">
-              <img decoding="async" src={W2} alt="" />
+              <img decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359219/photos%20haraka/pebblely_37_nghdt2.jpg" alt="" />
             </div>
             <h2>For Man</h2>
             <p>
@@ -89,7 +79,7 @@ const Home = () => {
           </div>
           <div className="box time">
             <div className="img-holder">
-              <img decoding="async" src={W1} alt="" />
+              <img decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359228/photos%20haraka/pebblely_8_xjtp6r.jpg" alt="" />
             </div>
             <h2>For Woman</h2>
             <p>

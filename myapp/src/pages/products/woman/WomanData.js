@@ -1,96 +1,9 @@
-import A23 from "../../../images/front/23/23 (2).png"
-import A106 from "../../../images/front/106/106 (1).png"
-import A152 from "../../../images/front/152/152 (1).png"
-import A164 from "../../../images/front/164/164 (2).png"
-import A197 from "../../../images/front/197/197 (2).png"
-import A213 from "../../../images/front/213/213 (1).png"
-import A214 from "../../../images/front/214/214 (1).png"
-import A225 from "../../../images/front/225/225 (1).png"
-import A245 from "../../../images/front/245/245 (2).png"
-import A246 from "../../../images/front/246/246 (1).png"
-import A256 from "../../../images/front/256/256 (2).png"
-import A364 from "../../../images/front/364/364 (2).png"
-import A378 from "../../../images/front/378/378 (1).png"
-import A479 from "../../../images/front/479/479 (1).png"
-import A489 from "../../../images/front/489/489 (1).png"
-import A528 from "../../../images/front/528/528 (1).png"
-import A540 from "../../../images/front/540/540 (1).png"
-import A542 from "../../../images/front/542/542 (2).png"
-import A543 from "../../../images/front/543/543 (1).png"
-import A603 from "../../../images/front/603/603 (1).png"
-import A623 from "../../../images/front/623/623 (1).png"
-import A626 from "../../../images/front/626/626 (2).png"
-import A654 from "../../../images/front/654/654 (1).png"
-import A670 from "../../../images/front/670/670 (1).png"
-import A766 from "../../../images/front/766/766 (1).png"
-import A769 from "../../../images/front/769/769 (1).png"
-import A879 from "../../../images/front/879/879 (1).png"
-import A973 from "../../../images/front/973/973 (2).png"
-
-// ======================================= images 2 + 3
-import AA23 from "../../../images/front/23/23.png"
-import AAA23 from "../../../images/front/23/23 (3).png"
-import AA106 from "../../../images/front/106/106.png"
-import AAA106 from "../../../images/front/106/106 (2).png"
-import AA152 from "../../../images/front/152/152   1.png"
-import AAA152 from "../../../images/front/152/152 (2).png"
-import AA164 from "../../../images/front/164/164.png"
-import AAA164 from "../../../images/front/164/164 (3).png"
-import AA197 from "../../../images/front/197/197.png"
-import AAA197 from "../../../images/front/197/197 (3).png"
-import AA213 from "../../../images/front/213/213  1.png"
-import AAA213 from "../../../images/front/213/213 (2).png"
-import AA214 from "../../../images/front/214/214  1.png"
-import AAA214 from "../../../images/front/214/214 (2).png"
-import AA225 from "../../../images/front/225/225.png"
-import AAA225 from "../../../images/front/225/SS225.png"
-import AA245 from "../../../images/front/245/245 (3).png"
-import AAA245 from "../../../images/front/245/245.png"
-import AA246 from "../../../images/front/246/246 (2).png"
-import AAA246 from "../../../images/front/246/246.png"
-import AA256 from "../../../images/front/256/256 (3).png"
-import AAA256 from "../../../images/front/256/256.png"
-import AA364 from "../../../images/front/364/364 (3).png"
-import AAA364 from "../../../images/front/364/364.png"
-import AA378 from "../../../images/front/378/378 (2).png"
-import AAA378 from "../../../images/front/378/378.png"
-import AA479 from "../../../images/front/23/23 (3).png"
-import AAA479 from "../../../images/front/479/479.png"
-import AA489 from "../../../images/front/489/489  1.png"
-import AAA489 from "../../../images/front/489/489.png"
-import AA528 from "../../../images/front/528/528 (2).png"
-import AAA528 from "../../../images/front/528/528.png"
-import AA540 from "../../../images/front/540/540 (2).png"
-import AAA540 from "../../../images/front/540/540.png"
-import AA542 from "../../../images/front/542/542 (3).png"
-import AAA542 from "../../../images/front/542/542.png"
-import AA543 from "../../../images/front/543/543 (2).png"
-import AAA543 from "../../../images/front/543/543.png"
-import AA603 from "../../../images/front/603/603 (2).png"
-import AAA603 from "../../../images/front/603/603  1.png"
-import AA623 from "../../../images/front/623/623   1.png"
-import AAA623 from "../../../images/front/623/623 (2).png"
-import AA626 from "../../../images/front/626/626   1.png"
-import AAA626 from "../../../images/front/626/626 (3).png"
-import AA654 from "../../../images/front/654/654  1.png"
-import AAA654 from "../../../images/front/654/654 (2).png"
-import AA670 from "../../../images/front/670/670 (2).png"
-import AAA670 from "../../../images/front/670/670.png"
-import AA766 from "../../../images/front/766/766 (2).png"
-import AAA766 from "../../../images/front/766/766.png"
-import AA769 from "../../../images/front/769/769  1.png"
-import AAA769 from "../../../images/front/769/769 (2).png"
-import AA879 from "../../../images/front/879/879   1.png"
-import AAA879 from "../../../images/front/879/879 (2).png"
-import AA973 from "../../../images/front/973/973  1.png"
-import AAA973 from "../../../images/front/973/973 (3).png"
-
- const WomanData =[
+  const WomanData =[
     {
       id: "1",
-      image: A23,
-      image2: AA23,
-      image3: AAA23,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359314/phots%20abo%20maher/23/23_2_btizg9.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359314/phots%20abo%20maher/23/23_rtsbkt.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359314/phots%20abo%20maher/23/23_3_cwzmwu.png",
       name: "Vega Perfumes",
       id2:23,
       description: "Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -99,9 +12,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "2",
-      image: A106,
-      image2: AA106,
-      image3: AAA106,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359313/phots%20abo%20maher/106/106_1_igx3fr.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359313/phots%20abo%20maher/106/106_paq7u0.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359312/phots%20abo%20maher/106/106_2_kf2b2w.png",
       name: "Vega Perfumes",
       id2:106,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -110,9 +23,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "3",
-      image:A152,
-      image2: AA152,
-      image3: AAA152,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359310/phots%20abo%20maher/152/152_1_huk5vc.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359311/phots%20abo%20maher/152/152_1_b7nz7a.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359310/phots%20abo%20maher/152/152_2_kfb3yf.png",
       name: "Vega Perfumes",
       id2:152,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -121,9 +34,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "4",
-      image:A164,
-      image2: AA164,
-      image3: AAA164,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359309/phots%20abo%20maher/164/164_2_kxqqxs.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359310/phots%20abo%20maher/164/164_a3inkh.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359308/phots%20abo%20maher/164/164_3_godzpd.png",
       name: "Vega Perfumes",
       id2:164,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -132,9 +45,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "5",
-      image:A197,
-      image2: AA197,
-      image3: AAA197,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359308/phots%20abo%20maher/197/197_2_t92zo7.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359309/phots%20abo%20maher/197/197_rrzaor.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359308/phots%20abo%20maher/197/197_3_vobrue.png",
       name: "Vega Perfumes",
       id2:197,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -143,9 +56,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "6",
-      image:A213,
-      image2: AA213,
-      image3: AAA213,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359307/phots%20abo%20maher/213/213_1_knudsj.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359307/phots%20abo%20maher/213/213_1_ytcgsd.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359308/phots%20abo%20maher/213/213_2_atohtg.png",
       name: "Vega Perfumes",
       id2:213,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -154,9 +67,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "7",
-      image:A214,
-      image2: AA214,
-      image3: AAA214,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359307/phots%20abo%20maher/214/214_1_sdbwqz.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359307/phots%20abo%20maher/214/214_1_vcdofd.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359306/phots%20abo%20maher/214/214_2_cd60wg.png",
       name: "Vega Perfumes",
       id2:214,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -165,9 +78,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "8",
-      image:A225,
-      image2: AA225,
-      image3: AAA225,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359305/phots%20abo%20maher/225/225_1_zyoure.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359306/phots%20abo%20maher/225/SS225_hnqizd.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359306/phots%20abo%20maher/225/225_ko5pqs.png",
       name: "Vega Perfumes",
       id2:225,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -176,9 +89,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "9",
-      image:A245,
-      image2: AA245,
-      image3: AAA245,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359305/phots%20abo%20maher/245/245_2_usrbyx.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359306/phots%20abo%20maher/245/245_rhsyjj.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359304/phots%20abo%20maher/245/245_3_dmkg2m.png",
       name: "Vega Perfumes",
       id2:245,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -187,9 +100,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "10",
-      image:A246,
-      image2: AA246,
-      image3: AAA246,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359304/phots%20abo%20maher/246/246_1_s9nnpe.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359304/phots%20abo%20maher/246/246_mj5mje.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359303/phots%20abo%20maher/246/246_2_ksrlel.png",
       name: "Vega Perfumes",
       id2:246,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -198,9 +111,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "11",
-      image:A256,
-      image2: AA256,
-      image3: AAA256,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359302/phots%20abo%20maher/256/256_2_r1l8xt.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359302/phots%20abo%20maher/256/256_pgzmnf.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359302/phots%20abo%20maher/256/256_3_qajo2v.png",
       name: "Vega Perfumes",
       id2:256,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -209,9 +122,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "12",
-      image:A364,
-      image2: AA364,
-      image3: AAA364,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359300/phots%20abo%20maher/364/364_2_h5qeeu.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359300/phots%20abo%20maher/364/364_ke3k1n.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359299/phots%20abo%20maher/364/364_3_tgsarl.png",
       name: "Vega Perfumes",
       id2:364,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -220,9 +133,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "13",
-      image:A378,
-      image2: AA378,
-      image3: AAA378,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359299/phots%20abo%20maher/378/378_1_qzwe4y.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359299/phots%20abo%20maher/378/378_hed0h7.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359298/phots%20abo%20maher/378/378_2_dfdfqa.png",
       name: "Vega Perfumes",
       id2:378,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -231,9 +144,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "14",
-      image:A479,
-      image2: AA479,
-      image3: AAA479,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359295/phots%20abo%20maher/479/479_1_hyopqr.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359295/phots%20abo%20maher/479/479_ggh6zv.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359308/phots%20abo%20maher/164/164_3_godzpd.png",
       name: "Vega Perfumes",
       id2:479,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -242,9 +155,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "15",
-      image:A489,
-      image2: AA489,
-      image3: AAA489,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359294/phots%20abo%20maher/489/489_1_fd6qsz.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359294/phots%20abo%20maher/489/489_1_jd93lb.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359294/phots%20abo%20maher/489/489_n6dceh.png",
       name: "Vega Perfumes",
       id2:489,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -253,9 +166,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "16",
-      image:A528,
-      image2: AA528,
-      image3: AAA528,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359292/phots%20abo%20maher/528/528_1_piesjk.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359293/phots%20abo%20maher/528/528_xgeheb.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359293/phots%20abo%20maher/528/528_2_pfdi9w.png",
       name: "Vega Perfumes",
       id2:528,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -264,9 +177,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "17",
-      image:A540,
-      image2: AA540,
-      image3: AAA540,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359290/phots%20abo%20maher/540/540_1_bxy3it.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359291/phots%20abo%20maher/540/540_agpbt0.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359290/phots%20abo%20maher/540/540_2_eubezk.png",
       name: "Vega Perfumes",
       id2:540,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -275,9 +188,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "18",
-      image:A542,
-      image2: AA542,
-      image3: AAA542,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359290/phots%20abo%20maher/542/542_2_t3ogxw.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359290/phots%20abo%20maher/542/542_wxczb8.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359289/phots%20abo%20maher/542/542_3_hbpgmk.png",
       name: "Vega Perfumes",
       id2:542,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -286,9 +199,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "19",
-      image:A543,
-      image2: AA543,
-      image3: AAA543,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359289/phots%20abo%20maher/543/543_1_x9eukq.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359289/phots%20abo%20maher/543/543_wqayvh.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359289/phots%20abo%20maher/543/543_2_lb5dw0.png",
       name: "Vega Perfumes",
       id2:543,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -297,9 +210,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "20",
-      image:A603,
-      image2: AA603,
-      image3: AAA603,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359288/phots%20abo%20maher/603/603_1_ovoyxb.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359288/phots%20abo%20maher/603/603_1_l2rgyp.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359288/phots%20abo%20maher/603/603_2_hlfigx.png",
       name: "Vega Perfumes",
       id2:603,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -308,9 +221,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "21",
-      image:A623,
-      image2: AA623,
-      image3: AAA623,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359043/photo2/623/623_1_f3e1lf.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359043/photo2/623/623_1_oiplm7.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359042/photo2/623/623_2_aqclga.png",
       name: "Vega Perfumes",
       id2:623,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -319,9 +232,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "22",
-      image:A626,
-      image2: AA626,
-      image3: AAA626,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359042/photo2/626/626_2_onkasz.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359042/photo2/626/626_1_hv3eso.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359042/photo2/626/626_3_ipeeay.png",
       name: "Vega Perfumes",
       id2:626,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -330,9 +243,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "23",
-      image:A654,
-      image2: AA654,
-      image3: AAA654,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359040/photo2/654/654_1_pva2ef.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359041/photo2/654/654_1_aliqbb.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359041/photo2/654/654_2_xlncwn.png",
       name: "Vega Perfumes",
       id2:654,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -341,9 +254,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "24",
-      image:A670,
-      image2: AA670,
-      image3: AAA670,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359039/photo2/670/670_1_bonst2.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359041/photo2/670/670_fq4tli.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359039/photo2/670/670_2_bgbked.png",
       name: "Vega Perfumes",
       id2:670,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -352,9 +265,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "25",
-      image:A766,
-      image2: AA766,
-      image3: AAA766,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359035/photo2/766/766_1_oakhbh.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359036/photo2/766/766_t5kjbg.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359035/photo2/766/766_2_fb5yxk.png",
       name: "Vega Perfumes",
       id2:766,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
@@ -363,9 +276,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "26",
-      image:A769,
-      image2: AA769,
-      image3: AAA769,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359035/photo2/769/769_1_nh1auo.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359035/photo2/769/769_1_dcih01.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359034/photo2/769/769_2_plhebo.png",
       id2:769,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
       cc:"ml" ,
@@ -373,9 +286,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "27",
-      image:A879,
-      image2: AA879,
-      image3: AAA879,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359032/photo2/879/879_1_flc5fx.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359031/photo2/879/879_1_macrjb.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359032/photo2/879/879_2_fuqgqi.png",
       id2:879,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
       cc:"ml" ,
@@ -383,9 +296,9 @@ import AAA973 from "../../../images/front/973/973 (3).png"
     },
     {
       id: "28",
-      image:A973,
-      image2: AA973,
-      image3: AAA973,
+      image:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359030/photo2/973/973_2_okcibe.png",
+      image2:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359030/photo2/973/973_1_m0bdzi.png",
+      image3:"https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359030/photo2/973/973_3_ogyaqv.png",
       id2:937,
       description:"Feel the freedom on your skin with a family of exciting scents such as oriental notes that voluptuously sensualize, citrus notes that exude happy feelings, and florals that capture the joy of spring.",
       cc:"ml" ,

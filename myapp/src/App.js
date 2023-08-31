@@ -5,7 +5,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Layout from "./commp/Layout"
 
-
 import Man from "./pages/products/man/Man";
 import ManDetail from './pages/products/man/ManDetail';
 import Woman from "./pages/products/woman/Woman";
@@ -39,3 +38,5 @@ function App() {
 
 
 export default App;
+
+

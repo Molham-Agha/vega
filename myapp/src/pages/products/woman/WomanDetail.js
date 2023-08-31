@@ -17,7 +17,6 @@ function WomanDetail() {
         <h5>
           50 {thisProduct.cc} | 1.7 {thisProduct.cc1}
         </h5>
-
         <p>{thisProduct.description}</p>
         <div class="rate">
           <i class="filled fas fa-star"></i>

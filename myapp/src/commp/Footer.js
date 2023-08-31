@@ -1,12 +1,11 @@
 import "./Footer.css";
-import logo2 from "../images/img/logo.jpg"
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
       <div className="imagfooter">
-        <img className="logofooter" decoding="async" src={logo2} alt="" />
+        <img className="logofooter" decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359337/img/logo_osuq9q.jpg" alt="" />
       </div>
       <footer className="footer">
         <div className="social">
@@ -15,7 +14,6 @@ const Footer = () => {
             <Link to="http://wa.me/+905518838677" target="_blank"><i className="fa-brands fa-whatsapp fa-bounce"></i></Link>
             <Link to="mailto:vegaparfum184@gmail.com" target="_blank"><i className="fa-solid fa-envelope fa-bounce"></i></Link>
         </div>
-
         <ul className="list">
             <li>
                 <Link to="/">Home</Link>
@@ -34,7 +32,7 @@ const Footer = () => {
             </li>
         </ul>
         <p className="copyright">
-          <Link  to="https://my-web-react-48daf.web.app/">Code by Molham  2023 ©</Link>
+          <Link  to="https://my-web-react-48daf.web.app/">Code by Molham 2023 ©</Link>
         </p>
       </footer>
      

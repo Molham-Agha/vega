@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
-import { NavLink } from "react-router-dom";
-import logo2 from "../images/img/logo.jpg"
+import { Link,NavLink } from "react-router-dom";
+
 
 function Header() {
   const [click, setClick] = useState(false);
@@ -16,7 +16,7 @@ function Header() {
           <div className="header-main">
             <div className="logo">
               <img  decoding="async"
-                src= {logo2}
+                src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359337/img/logo_osuq9q.jpg"
                 alt="" ></img>
             </div>
             <div className="open-nav-menu"  onClick={() => setClick(true)}>

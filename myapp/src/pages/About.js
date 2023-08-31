@@ -1,19 +1,15 @@
 import { Helmet } from "react-helmet-async";
 
-import pm1 from "../images/img/pm1.jpeg";
-import turky from "../images/img/turky.jpeg";
-
 const About = () => {
   return (
     <>
       <Helmet>
         <title>About Page</title>
       </Helmet>
-
       <div className="about">
         <div className="about-content">
           <div className="imagee">
-            <img decoding="async" src={pm1} alt="" />
+            <img decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359339/img/pm1_joj7xp.jpg" alt="" />
           </div>
           <div className="content">
             <p>
@@ -25,7 +21,7 @@ const About = () => {
         <hr />
       </div>
       <div className="seal">
-        <img className="seal-imge" decoding="async" src={turky} alt="" />
+        <img className="seal-imge" decoding="async" src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359338/img/turky_zmczue.jpg" alt="" />
       </div>
       <div className="stats" id="stats">
         <h2>Our Stats</h2>
