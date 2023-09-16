@@ -126,6 +126,10 @@
         margin: 0 auto !important;
         width: 200px ; 
     }
+    .user .article p{
+        width: auto;
+
+    }
 }
 @media  (max-width:650px) {
     .user-image {
@@ -140,6 +144,10 @@
     .user-image img:nth-child(even) {
         width: 150px ;
     }
+    .user .article p{
+        width: auto;
+
+    }
 }
 @media  (max-width:400px) {
     .user-image {
@@ -150,6 +158,10 @@
         align-items: center ;
         margin: 0 ;
         width: 200px ;
+    }
+    .user .article p{
+        width: auto;
+
     }
 }
 @keyframes user {

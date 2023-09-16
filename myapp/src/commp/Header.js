@@ -17,7 +17,9 @@ function Header() {
             <div className="logo">
               <img  decoding="async"
                 src="https://res.cloudinary.com/dag9fwtvk/image/upload/v1693359337/img/logo_osuq9q.jpg"
-                alt="" ></img>
+                alt="" 
+                >
+                </img>
             </div>
             <div className="open-nav-menu"  onClick={() => setClick(true)}>
               <span />
