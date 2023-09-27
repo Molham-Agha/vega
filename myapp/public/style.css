@@ -446,11 +446,11 @@ a{
 	margin-left: 20px;
 	margin: 40px 0;
 }
-
 .contact p{
 	font-size: 17px ;
 	line-height: 1.6;
 	padding: 0 4px;
+	font-weight: 500;
 }
 @media screen and (max-width: 768px) {
 	.about-content{
@@ -540,7 +540,6 @@ a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
 .seal .seal-imge{
 	position: relative;

@@ -62,13 +62,11 @@
 .user-image img:nth-child(odd) {
     width: 270px;
     padding: 10px 0;
-    border-radius: 15px;
     animation: user 2s ;
 }
 .user-image img:nth-child(even){
     width: 270px;
     padding: 10px 0;
-    border-radius: 15px;
     animation: user1 2s ;
 }
 .user .article{
@@ -151,7 +149,8 @@
 }
 @media  (max-width:400px) {
     .user-image {
-        flex-direction: column;
+     /* flex-direction: column; */
+     padding: 0;
     }
     .user-image img{
         display: flex ;
